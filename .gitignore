@@ -1,0 +1,16 @@
+# Ignore all .log files
+*.log
+
+# Ignore the `node_modules` directory
+node_modules/
+
+# Ignore temporary or build directories
+/temp/
+/dist/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore auto genrated files
+lazy-lock.json

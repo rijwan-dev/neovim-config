@@ -1,0 +1,14 @@
+git
+
+build-essential or clang
+fzf
+rg(ripgrep)
+
+wl-clipboard for wayland
+lua-ls for lua developmetn
+pyright,debugpy for python developmetn
+build-essential or gcc or clang, clangd, gdb
+
+clang-format for c++ code formating
+cmake for cmake plugin
+
