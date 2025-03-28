@@ -30,7 +30,7 @@ return {
             else
                 cb({
                     type = 'executable',
-                    command = cwd .. '/venv/bin/python',  -- Path to the Python executable in the virtual environment
+                    command = cwd .. '/.venv/bin/python',  -- Path to the Python executable in the virtual environment
                     args = { '-m', 'debugpy.adapter' },  -- Arguments to run the debugpy adapter
                     options = {
                         source_filetype = 'python',  -- Specify the source file type

@@ -37,7 +37,7 @@ return {
             on_attach = on_attach,
             filetypes = { "h", "c", "cpp", "cc", "objc", "hpp", "objcpp", "CMakeLists.txt" },
             flags = lsp_flags,
-            cmd = { "clangd", "--background-index", "--compile-commands-dir=./build" },
+            cmd = { "clangd", "--background-index", "--compile-commands-dir=./build", },
             single_file_support = true,
             root_dir = require'lspconfig'.util.root_pattern(
                 '.clangd',

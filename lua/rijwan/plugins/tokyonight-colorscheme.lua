@@ -6,18 +6,18 @@ return {
     priority = 1000,
 
     config = function()
-        local transparent = false  -- set to true if you would like to enable transparency
+        local transparent = true  -- set to true if you would like to enable transparency
 
         
-local bg = "#000000"
-local bg_dark = "#000000"
-local bg_highlight = "#0a1e2e"
-local bg_search = "#05355a"
-local bg_visual = "#1a2f45"
-local fg = "#a9bcc8"
-local fg_dark = "#8fa6b6"
-local fg_gutter = "#4b657a"
-local border = "#3a5870"
+        local bg = "#000000"
+        local bg_dark = "#000000"
+        local bg_highlight = "#0a1e2e"
+        local bg_search = "#05355a"
+        local bg_visual = "#1a2f45"
+        local fg = "#a9bcc8"
+        local fg_dark = "#8fa6b6"
+        local fg_gutter = "#4b657a"
+        local border = "#4a5870"
 
         require("tokyonight").setup({
             style = "night",

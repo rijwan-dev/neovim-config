@@ -7,6 +7,6 @@ return {
     main = "ibl",
 
     opts = {
-        indent = { char = "│"   },  -- ┊┊│┆Character used for indentation guide
+        indent = { char = "┊"   },  -- ┊┊│┆Character used for indentation guide
     },
 }
